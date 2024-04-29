@@ -9,7 +9,11 @@ Weather::Weather(std::string City, double Lon, double Lat, double Temperature, s
 	windSpeed = WindSpeed;
 	clouds = Clouds;
 }
-void Weather::printWeather()
+void Weather::getWeather()
 {
-
+	std::cout << "Погода в городе " << city << ": \n";
+	std::cout << "Температура: " << temperature << "\n";
+	std::cout << "Погода: " << weather << "\n";
+	std::cout << "Скорость ветра: " << windSpeed << "\n";
+	std::cout << "Облачность: " << clouds << "\n";
 };

@@ -12,6 +12,6 @@ class Weather
 	int clouds; // 100
 public:
 	Weather(std::string City, double Lon, double Lat, double Temperature, std::string Weather, double WindSpeed, int Clouds);
-	void printWeather();
+	void getWeather();
 };
 
