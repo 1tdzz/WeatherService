@@ -1,5 +1,4 @@
 ﻿#include <vector>
-<<<<<<< HEAD
 #include "json.hpp"
 #include "pugixml-1.14/src/pugixml.hpp"
 #include "Weather.h"
