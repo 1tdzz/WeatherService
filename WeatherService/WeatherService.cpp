@@ -14,6 +14,6 @@ int main() {
 	w.getWeather();
 	XmlService xs;
 	Weather w = xs.getWeather("weather.xml");
-
+	w.getWeather();
 	return 0;
 }
